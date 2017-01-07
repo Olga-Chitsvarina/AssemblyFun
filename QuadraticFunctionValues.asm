@@ -15,10 +15,12 @@ define(y_r, x20)				// Define register x20 with the macros name - y_r.
 define(temp_r, x21)				// Define register x21 with the macros name - temp_r.
 define(counter_r, x22)				// Define register x22 with the macros name - counter_r.
 
+//====================================================================================================================
 // EQUATES:
 range_bottom = 0				// This number corresponds to the minimum x value.	
 range_top = 100					// This number corresponds to the maximum x value.
 
+//====================================================================================================================
 // STRING LITERALS:
 test_string:	.string "Test number: %d\n"   	// String that is used to print information regarding the test number.
 x_string:  	.string "x-value: %d\n"       	// String that is used to print information regarding the x value.
